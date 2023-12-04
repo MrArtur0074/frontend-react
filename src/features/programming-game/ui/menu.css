@@ -1,0 +1,42 @@
+.menu-game, .moves-block {
+  display: flex;
+  margin-bottom: 30px;
+}
+.leftMenu, .rightMenu {
+  width: 50%;
+  text-align: center;
+}
+.leftMenu.active, .rightMenu.active {
+  border: 1px solid red;
+}
+.moves-block img {
+  max-width: 100%;
+  cursor: pointer;
+}
+.moves-block > div {
+  width: 50px;
+  height: 50px;
+}
+.move-right img {
+  transform: rotate(90deg);
+}
+.move-down img {
+  transform: rotate(180deg);
+}
+.move-left img {
+  transform: rotate(-90deg);
+}
+.menu-game .field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+}
+.menu-game .field > div{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.menu-game .field > div img{
+  max-width: 100%;
+}
